@@ -1,13 +1,15 @@
 # Azure Jira Butler
 
-## Summary
+## Introduction
 
-Azure Function API that integrates with
+The idea is to understand and to learn how can we deploy infra and app using GH actions.
+
+## Warming the Engine
+
 [Jira Cloud API](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/) for basic but important daily
 actions.
 
-The initial need was to be able to create Jira issue whenever a certificate was about to expired, but then the team
-though that we should leave it open for other contexts.
+Sometimes we need to create Jira tickets based on platform log or metrics in a simple and elegant way.
 
 ## Design
 
